@@ -12,9 +12,9 @@ export default function ProjectCard({
 }: { title: string; description: string; tags: string[], liveLink: string, devLink: string}) {
   const router = useRouter();
   
-  const handleCardClick = () => {
-    router.push(devLink);
-  }
+  // const handleCardClick = () => {
+  //   router.push(devLink);
+  // }
 
   return (
     <Card className="p-6 bg-gray-800 border-gray-800 hover:border-violet-400 transition-colors hover:color-violet-400">

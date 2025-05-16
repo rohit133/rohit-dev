@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Terminal, User, Code, MoveUpRight, MoveUpRightIcon } from "lucide-react";
+import { Terminal, User, Code } from "lucide-react";
 
 import About from "@/components/sections/About";
 import Portfolio from "@/components/sections/Home";

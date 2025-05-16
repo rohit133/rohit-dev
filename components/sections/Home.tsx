@@ -1,9 +1,8 @@
-import { ArrowUpRight, FileDown, Github, Linkedin, MoveUpRightIcon, Twitter, X } from "lucide-react"
+import { ArrowUpRight, FileDown, Github, Linkedin, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Projects from "@/components/sections/Projects"
 import { TypeAnimation } from "react-type-animation"
-import TechStack from "../TechStack"
 import Tags from "../Tags"
 
 export default function Portfolio() {
