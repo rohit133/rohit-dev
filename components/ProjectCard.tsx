@@ -1,7 +1,6 @@
+import Link from "next/link"
 import { Card } from "@/components/ui/card"
 import { Folder, ExternalLink, Github } from "lucide-react"
-import Link from "next/link"
-import { useRouter } from "next/navigation"
 
 export default function ProjectCard({ 
   title, 
@@ -10,7 +9,7 @@ export default function ProjectCard({
   liveLink,
   devLink 
 }: { title: string; description: string; tags: string[], liveLink: string, devLink: string}) {
-  const router = useRouter();
+
   
   // const handleCardClick = () => {
   //   router.push(devLink);
