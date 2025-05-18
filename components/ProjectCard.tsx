@@ -16,7 +16,7 @@ export default function ProjectCard({
   // }
 
   return (
-    <Card className="p-6 bg-gray-800 border-gray-800 hover:border-violet-400 transition-colors hover:color-violet-400">
+    <Card className="p-6 bg-[#F1EFEC] dark:bg-gray-800  border-gray-800 hover:border-violet-400 transition-colors hover:color-violet-400">
       <div className="flex items-start gap-3 h-full">
         <Folder className="flex-none w-5 h-5 text-purple-blue" />
         <div className="flex flex-col justify-between h-full gap-1">
@@ -26,7 +26,7 @@ export default function ProjectCard({
           </div>
           <div className="flex flex-wrap gap-2 mt-4">
             {tags.map((tag) => (
-              <span key={tag} className="px-2 py-1 text-xs rounded-md bg-gray-700">
+              <span key={tag} className="px-2 py-1 text-xs rounded-md bg-[#D4C9BE] dark:bg-gray-700">
                 {tag}
               </span>
             ))}

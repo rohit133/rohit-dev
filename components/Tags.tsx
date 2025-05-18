@@ -18,12 +18,12 @@ export default function Tags({ tags }: { tags: TagGroups }) {
                 <div className="flex flex-col gap-2">
                 {tagList.map((tag) => (
                     <div key={tag} className="flex items-center">
-                        <span className="relative px-2 py-1 text-xs rounded-md bg-gray-700 cursor-pointer text-left w-auto max-w-full group">
+                        <span className="relative px-2 py-1 text-xs rounded-md bg-[#F1EFEC] dark:bg-gray-700 cursor-pointer text-left w-auto max-w-full group">
                             {tag}
                             {/* Hover info only on border */}
                             <span className="absolute left-full top-1/2 -translate-y-1/2 ml-3 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 -translate-x-2 transition-all duration-300 pointer-events-none z-10">
                                 <span className="relative flex items-center">
-                                    <span className="bg-black text-violet-400 text-xs rounded px-2 py-1 whitespace-nowrap">
+                                    <span className="bg-[#ADB2D4] text-amber-50 text-xs rounded px-2 py-1 whitespace-nowrap">
                                         Info about {tag}
                                         {/* Add Analytis for more intractivity */}
 
@@ -31,7 +31,7 @@ export default function Tags({ tags }: { tags: TagGroups }) {
                                 
                                     </span>
                                     {/* Arrow */}
-                                    <span className="absolute top-1/2 right-full -translate-y-1/2 w-0 h-0 border-y-8 border-y-transparent border-r-8 border-r-black"></span>
+                                    <span className="absolute top-1/2 right-full -translate-y-1/2 w-0 h-0 border-y-8 border-y-transparent border-r-8 border-r-[#ADB2D4]"></span>
                                 </span>
                             </span>
                             {/* Transparent border overlay for hover */}

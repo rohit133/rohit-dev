@@ -4,6 +4,7 @@ import Link from "next/link"
 import Projects from "@/components/sections/Projects"
 import { TypeAnimation } from "react-type-animation"
 import Tags from "../Tags"
+import Leetcode from "@/public/icons/Leetcode"
 
 export default function Portfolio() {
 
@@ -27,6 +28,12 @@ export default function Portfolio() {
       title: "Resume",
       href: "https://drive.google.com/file/d/1XsRNwJH9ZtPpC1tIwPuVhXWqHU3VsKjE/view?usp=sharing",
       icon: <FileDown className="w-4 h-4" />
+    }, 
+    {
+      title: "Leetcode",
+      href: "https://leetcode.com/u/rohityou000/",
+      icon: <Leetcode className="w-4 h-4"/>
+      
 
     }
   ]
