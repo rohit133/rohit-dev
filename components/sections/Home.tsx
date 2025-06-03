@@ -26,7 +26,7 @@ export default function Portfolio() {
     },
     {
       title: "Resume",
-      href: "https://drive.google.com/file/d/1XsRNwJH9ZtPpC1tIwPuVhXWqHU3VsKjE/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1lSP8rqERcrGBp_9ujBFVihe7o2NFAuXV/view?usp=sharing",
       icon: <FileDown className="w-4 h-4" />
     }, 
     {
