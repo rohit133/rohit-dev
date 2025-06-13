@@ -39,6 +39,14 @@ const projects: Project[] = [
     liveLink: "",
     devLink: "https://github.com/rohit133/opneD",
   },
+  {
+    title: "Background Remover",
+    description:
+      "A tool that allows you to easily remove the background from the images with just a few clicks",
+    tags: ["Flask", "Python", "JavaScript", "artificial intelligence", "Rembg", "Pillow"],
+    liveLink: "https://web-production-d3350.up.railway.app/",
+    devLink: "https://github.com/rohit133/backgroundRemover",
+  },
 ];
 
 export default projects;
